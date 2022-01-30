@@ -11,9 +11,12 @@
   }
 
   .navbar.active {
-    background-color: $theme-white !important;
-    border-bottom: 1px solid #dee4ec;
+    // background-color: $theme-white !important;
+    // border-bottom: 1px solid #dee4ec;
     box-shadow: 5px 7px 26px -5px #cdd4e7;
+    background: #1B1464 0% 0% no-repeat padding-box;
+    box-shadow: 0px 1px 2px #3C3C3C29;
+    opacity: 1;
 
     .nav {
       >li {
@@ -234,10 +237,16 @@
 /*Logo Header Background Color*/
 .logo-white {
   .navbar-header {
-    background-color: $theme-white;
+    background: #1B1464 0% 0% no-repeat padding-box;
+    box-shadow: 0px 1px 2px #3C3C3C29;
+    opacity: 1;
 
     .logo-name {
-      color: #000;
+      text-align: left;
+      font: normal normal normal 27px/32px Helvetica;
+      letter-spacing: 0px;
+      color: #FFFFFF;
+      opacity: 1;
     }
   }
 }

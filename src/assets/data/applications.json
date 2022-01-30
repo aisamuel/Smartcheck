@@ -1,0 +1,65 @@
+[
+    {
+        "id": "1",
+        "name": "Application name goes here",
+        "type": "Application type",
+        "dcsc": "Application type",
+        "port": "Application port",
+        "end_port": "End point",
+        "host_server": "10.1.101.53"
+      
+    },
+    {
+        "id": "2",
+        "name": "Application name goes here",
+        "type": "Application type",
+        "dcsc": "Application type",
+        "port": "Application port",
+        "end_port": "End point",
+        "host_server": "10.1.101.53"
+        
+    },
+    {
+        "id": "3",
+        "name": "Application name goes here",
+        "type": "Application type",
+        "dcsc": "Application type",
+        "port": "Application port",
+        "end_port": "End point",
+        "host_server": "10.1.101.53"
+        
+    },
+    {
+        "id": "4",
+        "name": "Application name goes here",
+        "type": "Application type",
+        "dcsc": "Application type",
+        "port": "Application port",
+        "end_port": "End point",
+        "host_server": "10.1.101.53"
+        
+    },
+    {
+        "id": "5",
+        "name": "Application name goes here",
+        "type": "Application type",
+        "dcsc": "Application type",
+        "port": "Application port",
+        "end_port": "End point",
+        "host_server": "10.1.101.53"
+        
+    },
+    {
+        "id": "6",
+        "name": "Application name goes here",
+        "type": "Application type",
+        "dcsc": "Application type",
+        "port": "Application port",
+        "end_port": "End point",
+        "host_server": "10.1.101.53"
+        
+    }
+
+    
+  ]
+  

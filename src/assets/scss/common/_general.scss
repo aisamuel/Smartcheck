@@ -59,7 +59,7 @@ dl {
 
 section {
   &.content {
-    margin: 75px 15px 0 276px;
+    margin: 10px 42px 0 42px;
     min-height: calc(100vh - 71px);
     @include transition(0.5s);
 
@@ -79,7 +79,7 @@ section {
     &.content {
       margin: 170px 15px 0 15px;
       float: left;
-      width: calc(100% - 30px);
+      width: calc(100%);
     }
   }
 }

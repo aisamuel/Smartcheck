@@ -1,0 +1,59 @@
+[
+    {
+      "id": "1",
+      "name": "Samuel",
+      "ip_address": "IP Address goes here",
+      "cpu": "85.6",
+      "memory": "73.9",
+      "storage": "50"
+      
+    },
+    {
+        "id": "2",
+        "name": "Adeniyi",
+        "ip_address": "IP Address goes here",
+        "cpu": "82.6",
+        "memory": "34.9",
+        "storage": "56"
+        
+    },
+    {
+        "id": "3",
+        "name": "Ibukun",
+        "ip_address": "IP Address goes here",
+        "cpu": "99.6",
+        "memory": "32.9",
+        "storage": "48"
+        
+    },
+    {
+        "id": "4",
+        "name": "Server name goes here",
+        "ip_address": "IP Address goes here",
+        "cpu": "23.6",
+        "memory": "43.9",
+        "storage": "52"
+        
+    },
+    {
+        "id": "5",
+        "name": "Fifth Server",
+        "ip_address": "IP Address goes here",
+        "cpu": "45.6",
+        "memory": "43.9",
+        "storage": "32"
+        
+    },
+    {
+        "id": "6",
+        "name": "Server name goes here",
+        "ip_address": "IP go here",
+        "cpu": "23.6",
+        "memory": "93.9",
+        "storage": "43"
+        
+    }
+
+    
+  ]
+  

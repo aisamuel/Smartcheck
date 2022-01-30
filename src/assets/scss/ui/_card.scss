@@ -4,13 +4,19 @@
  *  Description: This scss file for card style classes
  */
 .card {
-  background-color: #fff;
-  border-radius: 10px;
-  border: none;
-  position: relative;
-  margin-bottom: 30px;
-  box-shadow: 0 0.46875rem 2.1875rem rgba(90, 97, 105, 0.1), 0 0.9375rem 1.40625rem rgba(90, 97, 105, 0.1),
-    0 0.25rem 0.53125rem rgba(90, 97, 105, 0.12), 0 0.125rem 0.1875rem rgba(90, 97, 105, 0.1);
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  box-shadow: 0px 1px 2px #00000029;
+  opacity: 1;
+
+  .inner-card {
+    margin-left: 84px;
+    margin-right: 84px;
+    margin-bottom: 89px;
+    margin-top: 20px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 1px 2px #00000029;
+    opacity: 1;
+  }
 
   .card-inside-title {
     margin-top: 25px;

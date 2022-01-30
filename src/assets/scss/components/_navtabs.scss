@@ -4,7 +4,16 @@
  *  Description: This scss file for navbar tabs style classes
  */
 .nav-tabs {
-  border-bottom: 2px solid #eee;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  box-shadow: 0px 1px 2px #4d4c4c29;
+  border-radius: 4px;
+  opacity: 1;
+  text-align: left;
+  font: normal normal normal 20px/25px Muli;
+  letter-spacing: 0px;
+  color: #1B1464;
+  opacity: 1;
+  padding-top: 10px;
 
   > li {
     position: relative;

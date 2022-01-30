@@ -9,6 +9,10 @@
 @import "~@swimlane/ngx-datatable/themes/material.scss";
 @import "~@swimlane/ngx-datatable/assets/icons.css";
 
+.mat-table {
+  background: #fff;
+  margin-bottom: 100px;
+}
 .table {
   tbody {
     tr {
@@ -351,6 +355,12 @@ tr.group:hover {
   }
 }
 
+.move-to-right {
+  position: absolute;
+  right: 0px;
+  margin-right: 30px;
+}
+
 .ngxTableHeader {
   padding: 10px 20px;
   display: flex;
@@ -438,6 +448,11 @@ tr.group:hover {
   .mat-header-cell {
     font-size: 14px;
     font-weight: 600;
+    background: #F4F4F7 0% 0% no-repeat padding-box;
+    /* border: 1px solid #B3B3B480; */
+    opacity: 1;
+    color: #000B14;
+    text-transform: uppercase;
   }
 }
 
@@ -500,8 +515,10 @@ tr.group:hover {
   -webkit-box-align: center;
   align-items: center;
   border-color: #e6e9ed;
-  background-color: #ebebee;
+  // background-color: #ebebee;
   height: 70px;
+  margin-left: 74px;
+  margin-right: 74px;
   min-width: 800px;
 
   .header-buttons {
@@ -540,18 +557,17 @@ tr.group:hover {
 
     input.search-field {
       font-weight: 500;
-      color: rgba(0, 0, 0, 0.54);
-      border-radius: 25px;
       border: 0;
-      height: 45px;
       padding: 8px 8px 8px 50px;
       width: 250px;
-      background: #ffffff;
+      /* background: #ffffff; */
+      /* background: #1B1464 0% 0% no-repeat padding-box; */
+      text-align: left;
+      font: normal normal normal 16px/20px Muli;
+      /* letter-spacing: 0px; */
+      background: #8B9091;
+      opacity: 1;
       transition: background 0.2s, width 0.2s;
-
-      &:hover {
-        background: #fffefe;
-      }
 
       // &:focus {
       //   outline: none;

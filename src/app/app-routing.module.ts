@@ -2,27 +2,15 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 const routes: Routes = [
   {
-    path: 'dashboard',
+    path: 'smartcheck',
     loadChildren: () =>
-      import('./dashboard/dashboard.module').then(m => m.DashboardModule)
-  },
-  {
-    path: 'rooms',
-    loadChildren: () =>
-      import('./rooms/rooms.module').then(m => m.RoomsModule)
+      import('./smartcheck/smartcheck.module').then(m => m.SmartcheckModule)
   },
   
-  {
-    path: 'authentication',
-    loadChildren: () =>
-      import('./authentication/authentication.module').then(
-        m => m.AuthenticationModule
-      )
-  },
  
   {
     path: '',
-    redirectTo: 'authentication',
+    redirectTo: 'smartcheck',
     pathMatch: 'full'
   }
 ];
