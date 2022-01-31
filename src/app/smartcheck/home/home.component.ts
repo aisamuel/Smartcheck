@@ -71,7 +71,7 @@ export class HomeComponent implements OnInit {
         this.refreshTable();
         this.showNotification(
           'snackbar-success',
-          'Add Customer Successfully...!!!',
+          'Add Home Successfully...!!!',
           'bottom',
           'center'
         );
@@ -82,7 +82,7 @@ export class HomeComponent implements OnInit {
     this.id = row.id;
     const dialogRef = this.dialog.open(HomeFormDialogComponent, {
       data: {
-        customers: row,
+        home: row,
         action: 'edit',
       },
     });
