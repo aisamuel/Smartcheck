@@ -18,6 +18,8 @@ import { MatCheckboxModule } from '@angular/material/checkbox';
 import { MaterialFileInputModule } from 'ngx-material-file-input';
 import { MatTabsModule } from '@angular/material/tabs';
 import { MatMenuModule } from '@angular/material/menu';
+import { MatCardModule } from '@angular/material/card';
+import { MatDividerModule } from '@angular/material/divider';
 
 import { SmartcheckRoutingModule } from './smartcheck-routing.module';
 
@@ -52,6 +54,8 @@ import { ApplicationsDeleteComponent } from './applications/dialogs/applications
     ReactiveFormsModule,
     NgxDatatableModule,
     MatTableModule,
+    MatDividerModule,
+    MatCardModule,
     MatPaginatorModule,
     MatFormFieldModule,
     MatInputModule,
